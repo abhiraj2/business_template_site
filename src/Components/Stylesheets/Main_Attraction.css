@@ -1,0 +1,154 @@
+
+/*Main Attraction*/
+
+.mainAttr{
+    position: relative;
+    border-top: solid rgb(220, 220, 220) 2px;
+  }
+  
+  .mainAttr > .con {
+    position: absolute;
+    height: 500px;
+    top: 140px;
+    left: 350px;
+    display: flex;
+    gap: 50px;
+    width: 55%;
+  }
+  .title, .subtitle{
+    text-align: left;
+  }
+  
+  .mainAttr > .con > .buttons > a {
+    color: red;
+  } 
+  
+  .text_content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #learn_btn{
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1355FF;
+  }
+  
+  .ceo_quote{
+    padding: 20px;
+    z-index: 4;
+    /* width: 50%; */
+    position: relative;
+    left: 200px;
+    background-color: white;
+    top: -175px;
+    text-align: left;
+    width: 55%;
+  }
+  
+  .credits{
+    display: flex;
+    gap: 20%;
+  }
+  
+  .credits > .text > .name {
+    font-size: 20px;
+    font-weight:bolder;
+  }
+  
+  .bgColorDiv{
+    width: 70%;
+    position: relative;
+    z-index: -1;
+    background-color: #18264E;
+    height: 500px;
+    top: -36px;
+  }
+  
+  #bg1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+  
+  }
+  
+  #explore_btn {
+    color: white;
+  }
+  
+  #oneSqDB{
+    position: relative;
+    left: 230px;
+    top: 5px;
+  }
+  
+  .bgImg{
+    display: flex;
+    position: relative;
+    z-index: -1;
+  }
+  
+  #bg2{
+    padding: 0px;
+  }
+  
+  .bg2div{
+    position: relative;
+    margin-bottom: 50px;
+    top: -100px;
+    background-color: #1355FF;
+  }
+  
+  .con-background{
+    border-bottom: solid rgb(220, 220, 220) 2px;
+    max-height: 750px;
+  }
+  
+  .scrollInfo{
+    display: flex;
+    z-index: -1;
+    padding: 0px;
+    position: relative;
+    top: -227px;
+  }
+  
+  .scrollInfo > .text {
+    background-color: #F7F9FC;
+    padding: 25px;
+    margin-left: 100px;
+    width: 30%;
+    font-size: 18px;
+    vertical-align: text-top;
+  
+  }
+  
+  #blankSpace1{
+    width: 50%;
+    height: 75px;
+    background-color: #1355FF;
+  }
+  
+  .second_item > .title {
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .second_item {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .team_list{
+    display: flex;
+    justify-content: space-around;
+  }

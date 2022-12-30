@@ -1,0 +1,29 @@
+/*Ad 5*/
+
+.ad5 {
+    display: flex;
+    justify-content: center;
+  }
+  
+.ad5 > .grp2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;  
+}
+
+.ad5 > .grp2 > .title{
+  width: 80%;
+}
+.ad5 > .grp2 > .smoltitle {
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.ad5 > .grp2 > .desc {
+  width: 65%; 
+  padding: 25px;
+  text-align: left;
+}

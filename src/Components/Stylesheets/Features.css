@@ -1,0 +1,48 @@
+/*Features*/
+#item1{
+    display: flex;
+    position: relative;
+   }
+  
+   #item1 > .text{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    top: 18px;
+    left: 25px;
+   }
+  
+   .title{
+    font-size: 48px;
+    font-weight: 700;
+   }
+  
+   #item3 {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+   }
+  
+   #item3 > .item3item{
+     display: flex;
+     gap: 25px;
+   }
+  
+   .features > .grp1{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+   }
+  
+   .features{
+    display: flex;
+    justify-content: center;
+   }
+  
+  .features > .grp2{
+    width: 35%;
+  }
+  
+  .ticksvg{
+    background-color: #e0f8ff;
+  }

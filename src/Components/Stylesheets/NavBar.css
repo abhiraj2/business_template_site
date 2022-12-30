@@ -1,0 +1,27 @@
+/*Navbar*/
+.navbar{
+    margin-top: 1vh;
+    padding: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navLink{
+    position: relative;
+    top: 5px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .contact{
+    margin-top: 10px;
+  }
+  
+  #contact_btn{
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1355FF;
+  }
+  

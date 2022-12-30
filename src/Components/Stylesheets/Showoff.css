@@ -1,0 +1,25 @@
+/*Show Off*/
+
+.showoff{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .showoff > .itemholder > .title{
+    text-align: center;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .showoff > .itemholder > .subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  #greyhash{
+    color: grey;
+  }
+  

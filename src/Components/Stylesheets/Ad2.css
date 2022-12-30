@@ -1,0 +1,64 @@
+/*Ad2*/
+.textcontainer{
+    position: relative;
+    text-align: left;
+    max-width: 40%;
+    width: fit-content;
+  }
+  
+  .ad2 > .textcontainer > .title{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .ad2{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  #learn_btn{
+    color: white;
+    height: 30px;
+    vertical-align: middle;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1355FF;
+  }
+  
+  .subcon {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-left: 100px;
+    width: 75%;
+  }
+  
+  .bg {
+    z-index: -1;
+  }
+  
+  .textgrp{
+    position: absolute;
+    top: 50px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  
+  .subtext {
+    width: 60%;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .textgrp > .text {
+    background-color: white;
+    height: 200px;
+  }

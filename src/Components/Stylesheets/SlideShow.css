@@ -1,0 +1,44 @@
+/*Slideshow*/
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    height: 25%;
+  }
+  
+  .grp1 > .title{
+    height: fit-content;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .slideshow > .grp2{
+    width: 25%;
+  }
+  .slideItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    font-weight: 600;
+  }
+  
+  .secondHolder{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+  }
+  
+  .slideItem > .feedback{
+    font-weight: 700;
+    font-size: 24px;
+    width: 60%;
+  }
+  
+  .control{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+  }

@@ -1,0 +1,72 @@
+/*Advertisement 4*/
+.ad4{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .grp1 > .text1, .grp1 > .text2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    text-align: left;
+    width: 90%;
+  }
+  
+  .text1 > img, .text2 > img{
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .text > .subtitle{
+    font-size: 18px;
+  }
+  
+  .text > .title{
+    font-weight: 700;
+    font-size: 36px;
+  }
+  
+  .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .grp1{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 35%;
+  }
+  
+  .grp2 > .title{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .grp2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .grp2 > .subtitlegrp{
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    left: 50px;
+    max-width: 90%;
+    font-size: 18px;
+    gap: 15px;
+    
+  }
+  
+  #learn_btn_diff{
+    background-color: #F7F9FC;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+  }

@@ -1,0 +1,70 @@
+/*Advertisement 3*/
+
+.ad3{
+    color: white;
+    background-color: #061237;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .ad3> .intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .intro > .title{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  #started_btn{
+    height: fit-content;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #1355FF;
+  }
+  
+  .item {
+    width: 25%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .item > .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .item > .desc {
+    font-size: 16px;
+    opacity: 75%;
+  }
+  
+  .item > img{
+    width: fit-content;
+    height: fit-content;
+  
+  }
+  
+  .ad3 > .con {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .box{
+    position: relative;
+  }
+  
+  .box > .bg1{
+    position: absolute;
+    left: 560px;
+    top: 470px;
+  }
